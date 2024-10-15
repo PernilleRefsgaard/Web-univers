@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #b5d2dd;
+    margin: 0;
+}
+
+.header {
+    background-color: #f8faf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 230px;
+    margin-right: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+}
+
+.nav-menu .active {
+    color: #fff;
+    background-color: #b5d2dd;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.destination-highlight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b5d2dd; 
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+}
+
+.content {
+    flex: 1;
+    padding-right: 2rem;
+    background-color: #f8f8f4; 
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.content h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #b5d2dd; 
+    margin: 1rem 0;
+    width: 100%; 
+}
+
+.content p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #b5d2dd;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    color: #333;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #b5d2dd;
+}
+
+button a{
+    text-decoration: none;
+}
+
+.image {
+    flex: 1;
+    padding-left: 2rem;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #f8faf0;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid #ccc;
+}
+
+footer p {
+    color: #777;
+}

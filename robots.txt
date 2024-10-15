@@ -1,0 +1,5 @@
+user-agent:*
+Allow: /
+Sitemap: https://ditdom%C3%A6ne.dk/sitemap.xml
+
+
